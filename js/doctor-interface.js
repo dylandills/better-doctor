@@ -1,4 +1,4 @@
-var Doctors = require('./../js/weather.js').docModule;
+var Doctors = require('./../js/doctor.js').docModule;
 
 $(document).ready(function() {
   var currentDoctorObject = new Doctors();
