@@ -1,0 +1,22 @@
+{
+  "name": "project",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Dylan Dills <dylan.dills@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/dylandills/track-suggestor",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "moment": "^2.18.1",
+    "bootstrap": "^3.3.7"
+  }
+}
