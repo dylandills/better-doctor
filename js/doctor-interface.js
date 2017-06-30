@@ -1,14 +1,10 @@
-var Doctors = require('./../js/doctor.js').docModule;
-
-var displayDoctor = function(medicalIssue, displayDoctor) {
-  $('.showDoctor').text("Symptom: " + medicalIssue + "Doctor in your area: ");
-};
+var Doctors = require('./../js/weather.js').docModule;
 
 $(document).ready(function() {
   var currentDoctorObject = new Doctors();
-  $('#doctor').click(function() {
-    var medicalIssue = $('#better-doctor').val();
-    $('#better-doctor').val("");
-    currentDoctorObject.getDoctors(medicalIssue, displayDoctor);
+  $('#better-doctor').click(function() {
+    var medicalIssue = $('#symptom').val();
+    $('#symptom').val("");
+    currentDoctorObject.getDoctors(medicalIssue);
   });
 });

@@ -8,16 +8,12 @@
     <title>A Better Doctor</title>
   </head>
   <body>
-    <h1>Not doing so hot? Let's find you a doctor</h1>
-    <form class="form-inline">
-      <label class="sr-only" for="inlineFormInput">Symptom</label>
-      <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput better-doctor" placeholder="enter your symptom">
-
-      <button type="submit" class="btn btn-primary" id="doctor">Submit</button>
-      <br>
-      <br>
-      <br>
-      <div class="showDoctor"></div>
-    </form>
+    <div class="container">
+        <h1>Feeling meh? Find a doctor who can help:</h1>
+        <label for="symptom">Enter your symptom:</label>
+        <input id="symptom" type="text">
+        <button class="btn-success" id="better-doctor">Find Your Doctor!</button>
+        <div class="showDoctor"></div>
+      </div>
   </body>
 </html>
