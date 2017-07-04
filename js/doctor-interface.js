@@ -1,7 +1,7 @@
 var Doctors = require('./../js/doctor.js').docModule;
 
-var displayDoctor = function(doctor) {
-  $('.showDoctor').text("Here's your doctor: " + doctor);
+var displayDoctor = function(medicalIssue, doctorName, doctorNumber, doctorPatient) {
+  $('.showDoctor').text(location + "MD: " + doctorName + "Phone Number: " + doctorNumber "Accepting New Patients: " + doctorPatient );
 };
 
 $(document).ready(function() {
@@ -9,6 +9,6 @@ $(document).ready(function() {
   $('#better-doctor').click(function() {
     var medicalIssue = $('#symptom').val();
     $('#symptom').val("");
-    currentDoctorObject.getDoctors(medicalIssue, displayDoctor);
+    currentDoctorObject.getDoctors(medicalIssue,displayDoctor);
   });
 });
