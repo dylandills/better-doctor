@@ -1,7 +1,7 @@
 {
   "name": "project",
   "version": "1.0.0",
-  "description": "",
+  "description": "#### An application in which users submit a form and receive a list of doctors nearby who can treat their medical issue. Utilizes node.js, moment, and API's  6/30/17",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,5 +22,6 @@
     "gulp-util": "^3.0.8",
     "jshint": "^2.9.5",
     "vinyl-source-stream": "^1.1.0"
-  }
+  },
+  "dependencies": {}
 }
