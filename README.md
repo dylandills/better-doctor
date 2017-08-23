@@ -55,7 +55,7 @@ Pulls out relevant info from API return and displays it to user|
 * Run 'gulp serve' in your chosen terminal application, then wait for your browser to be opened to the appropriate page.
 
 ## Known Bugs
-* Location is not able to display.
+* None at this time.
 
 ## Technologies Used
 
