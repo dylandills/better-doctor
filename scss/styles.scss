@@ -1,0 +1,22 @@
+body {
+  background-image: url('/img/plaid-vector.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #00234b !important;
+}
+.container {
+  margin: 10em;
+}
+.box {
+  border-radius: 10px 10px 10px 10px;
+  background-color: #fff;
+  padding: 40px 80px;
+  width: 75%;
+}
+h1 {
+  font-size: 60px;
+}
+label, input, button {
+  margin-top: 3em;
+  font-size: 18px;
+}
