@@ -36,9 +36,9 @@ Feeling meh? Don't want to have to call up your insurance and go through the lon
 
 ## Specifications
 | Behavior | Input | Output |
+|---|:---|:---|
 | User Inputs Symptom| "Cough" | Accesses inputs into url of api call along with API Key|
-User sees display of Doctor information of doctor's name, phone number, and if they are accepting patients or not |"Willam Bradford MD"|
-Pulls out relevant info from API return and displays it to user|
+User sees display of Doctor information of doctor's name, phone number, and if they are accepting patients or not |"Willam Bradford MD"| Pulls out relevant info from API return and displays it to user|
 
 ## Integration
   * Initial routes or index pages with all dependencies in Controller/index.html head
@@ -49,7 +49,9 @@ Pulls out relevant info from API return and displays it to user|
 
 ## Setup/Installation Requirements
 
-* Clone the repository (https://github.com/dylandills/better-doctor.git)
+* Recieve API key by going to https://api.betterdoctor.com
+* Clone the repository (https://github.com/dylandills/better-doctor)
+* Create .env file at top of directory, with putting exports.apiKey = "YOUR API KEY";
 * Run 'npm install' in your chosen terminal application
 * Run 'bower install' in your chosen terminal application
 * Run 'gulp serve' in your chosen terminal application, then wait for your browser to be opened to the appropriate page.
