@@ -4,7 +4,7 @@
 
 #### By **Dylan Dills**
 
-##Description
+## Description
 
 Feeling meh? Don't want to have to call up your insurance and go through the long hold times, just to find a doctor for your cold? Better Doctor API is for you. In this application, you are able to find a doctor within the Portland, Or metropolitan area, that can cater to every sneeze, stomach woes, or ache. Then, you'll see their name, their phone number, and if they are accepting new patients at this time. Just type in the symptom and see what you find.
 
@@ -50,7 +50,7 @@ User sees display of Doctor information of doctor's name, phone number, and if t
 ## Setup/Installation Requirements
 
 * Recieve API key by going to https://api.betterdoctor.com
-* Clone the repository (https://github.com/dylandills/better-doctor)
+* Clone the repository (https://github.com/dylandills/better-doctor.git)
 * Create .env file at top of directory, with putting exports.apiKey = "YOUR API KEY";
 * Run 'npm install' in your chosen terminal application
 * Run 'bower install' in your chosen terminal application
